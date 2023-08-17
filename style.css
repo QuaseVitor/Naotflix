@@ -15,10 +15,12 @@ html, body{
 a{
 color: white;
 } 
+
+
                 /*Cabeçalho*/
 
 .logo{
-    margin: 18px 0px 0px 20px;
+    margin: 2.5% 0% 0% 2.5%;
     width: 150px;
     position: relative;
 
@@ -26,18 +28,20 @@ color: white;
                 /*Botão de entrar*/
 .entrar{
 
-    margin:18px 0px 0px 0px;
-    padding: 8px;
-    width: 60px;
+    margin:2.5% 0% 0% 2.5%;
+    padding-top: 1.3%;
+    width: 18%;
+    height: 4%;
 
     text-align: center;
+    align-items: center;
     position: absolute;
-    right: 30px;
+    right: 3%;
     
 
     background-color: red;
     border: 3px solid red;
-    border-radius: 10%;
+    border-radius: 10px;
     text-decoration: none;
 }
                 /*Centro*/
@@ -48,7 +52,7 @@ color: white;
 }
 
 .main h1{
-    font-size:55px;
+    font-size:320%;
     color: white;
 
     display: block;
@@ -64,7 +68,7 @@ color: white;
 
 .main p{   
     color: white;
-    font-size: 23px;
+    font-size: 110%;
     
     text-align: center;
 }
@@ -77,8 +81,8 @@ color: white;
 }
 
 .form input{
-    width:400px;
-    height: 40px;
+    width:60%;
+    height: 35px;
 
     margin: 0px;
 
@@ -86,8 +90,8 @@ color: white;
 }
                 /*Botão de Assine*/
 .assine{
-    width: 230px;
-    padding: 11px;
+    width: 15%;
+    padding: 2.2%;
 
     background-color: red;
     border: 1px solid red;
@@ -104,6 +108,41 @@ color: white;
 footer{
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 90%
 }
+
+@media screen and (min-width: 480px){
+
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .entrar{
+        padding: 0;
+        width: 5%;
+        height: 4.3%;
+        
+    }
+
+    .form input{
+        width:400px;
+        height: 40px;
+    
+        margin: 0px;
+    
+        position: relative;
+    }
+
+    .assine{
+        padding: 11px;
+
+
+    }
+    
+}
+
+
                                                                                             /*<\\>*/
+
+
+                                                                                            
