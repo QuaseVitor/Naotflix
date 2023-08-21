@@ -7,157 +7,142 @@ html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     background-image: url(./image/fundo_netflix.png); 
-    background-size: auto;
-    background-repeat: repeat;
-
-
+    background-size:cover;
     
 
 }
 
 a{
 color: white;
-
-
 } 
+
+
                 /*Cabeçalho*/
+
 .logo{
     margin: 2.5% 0% 0% 2.5%;
     width: 150px;
     position: relative;
 
 }
+                /*Botão de entrar*/
+.entrar{
 
-                /*Fundo opaco*/
+    margin:2.5% 0% 0% 2.5%;
+    padding-top: 1.3%;
+    width: 18%;
+    height: 4%;
 
-main{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.fundo{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    padding-top: 2%;
-
-    width: 381px;
-    height:580px;
-
-    
-   
-
-    background-color: rgb(7, 7, 7);
-    opacity: 80%;
-    
-    border-radius: 8px;
-
-}
-
-                /*Informações de login*/
-
-.form{
+    text-align: center;
+    align-items: center;
     position: absolute;
-    text-align: left;
-
+    right: 3%;
     
+
+    background-color: red;
+    
+    border-radius: 10px;
+    text-decoration: none;
+}
+                /*Centro*/
+.main{
+    text-align: center;
+    margin: 0px;
+    margin-top: 150px;
 }
 
-.form h1{
+.main h1{
+    font-size:320%;
     color: white;
-    font-size: 25px;
+
+    display: block;
     position: relative;
-    left: 3.5%;
+
     
+    margin: 0px;
 }
 
-.email{
-    margin: 10px;
-    width: 260px;
+.continua{
+    position: absolute;
+}
+
+.main p{   
+    color: white;
+    font-size: 110%;
+    
+    text-align: center;
+}
+                /*Email*/
+.form{
+    text-align: center;
+    display: inline;
+    right: 10%;
+    position: relative;
+}
+
+.form input{
+    width:60%;
     height: 35px;
 
-    border-radius: 5px;
-    background-color: rgb(33, 33, 33);
+    margin: 0px;
+
+    position: relative;
 }
+                /*Botão de Assine*/
+.assine{
+    width: 15%;
+    padding: 2.2%;
 
-.form #senha{
-    margin-bottom: 30px;
-}
-
-.form button{
-    margin: 8px;
-    width: 270px;
-    height: 40px;
-
-    background-color: rgb(255, 0, 0);
+    background-color: red;
+    border: 1px solid red;
+    font-size: 20px;
     color: white;
-    font-size: 18px;
-    border-radius: 4px;
-}
-.senha{
-    display: flex;
-    justify-content: center;
 
-    left: 2%
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+
+}
+                /*Footer*/
+footer{
+    text-align: center;
+    color: white;
+    font-size: 90%
+}
+
+@media screen and (min-width: 480px){
+
     
 }
 
-.info label{
-    font-size: 100%;
-    color: rgb(102, 102, 102);
-}
-
-.ajuda{   
-    padding-left: 11%;
-    text-decoration: none;
-}
-.footer{
-    position:absolute;
-    bottom: 3%;
-    left: 17%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-
-
- 
-
-
-
-
-}
-
-
-
-.footer p{
-
-    color: gray;
-}
-
-.footer a{
-    padding-left: 3px;
-    text-decoration: none;
-}
-
-@media screen and (max-width: 480px){
-
-    html, body{
-        margin: 0px;
-        padding: 0px;
-       
-        background-color:rgb(28, 27, 44) ;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media screen and (min-width: 1440px) {
+    .entrar{
+        padding: 0;
+        width: 5%;
+        height: 4.3%;
         
-        background-image: url(./image/fundo_netflix.png); 
-        background-size:cover;
-        
-    
     }
 
+    .form input{
+        width:400px;
+        height: 40px;
+    
+        margin: 0px;
+    
+        position: relative;
+    }
 
+    .assine{
+        padding: 11px;
+
+
+    }
+    
 }
 
-                                                                                                      /*<\\>*/
+
+                                                                                            /*<\\>*/
+
+
+                                                                                            
