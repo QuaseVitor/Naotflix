@@ -14,135 +14,124 @@ html, body{
 
 a{
 color: white;
+
+
 } 
-
-
                 /*Cabeçalho*/
-
 .logo{
-    margin: 2.5% 0% 0% 2.5%;
+    margin: 18px 0px 0px 20px;
     width: 150px;
     position: relative;
 
 }
-                /*Botão de entrar*/
-.entrar{
 
-    margin:2.5% 0% 0% 2.5%;
-    padding-top: 1.3%;
-    width: 18%;
-    height: 4%;
+                /*Fundo opaco*/
 
+.fundo{
     text-align: center;
-    align-items: center;
-    position: absolute;
-    right: 3%;
-    
-
-    background-color: red;
-    
-    border-radius: 10px;
-    text-decoration: none;
-}
-                /*Centro*/
-.main{
-    text-align: center;
-    margin: 0px;
-    margin-top: 150px;
-}
-
-.main h1{
-    font-size:320%;
-    color: white;
-
+    position: relative;
     display: block;
-    position: relative;
 
+    width: 381px;
+    height:580px;
+
+    top: 10%;
+    left: 36.5%;
+
+    background-color: rgb(7, 7, 7);
+    opacity: 80%;
     
-    margin: 0px;
+    border-radius: 8px;
+
 }
 
-.continua{
-    position: absolute;
-}
+                /*Informações de login*/
 
-.main p{   
-    color: white;
-    font-size: 110%;
-    
-    text-align: center;
-}
-                /*Email*/
 .form{
-    text-align: center;
-    display: inline;
-    right: 10%;
-    position: relative;
+    position: absolute;
+    text-align: left;
+
+    top: 12%;
+    left: 40%;
 }
 
-.form input{
-    width:60%;
+.form h1{
+    color: white;
+    font-size: 25px;
+
+    position: relative;
+
+    left: 10px;
+}
+
+.email{
+    margin: 10px;
+    width: 260px;
     height: 35px;
 
-    margin: 0px;
-
-    position: relative;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
 }
-                /*Botão de Assine*/
-.assine{
-    width: 15%;
-    padding: 2.2%;
 
-    background-color: red;
-    border: 1px solid red;
-    font-size: 20px;
+.form #senha{
+    margin-bottom: 30px;
+}
+
+.form button{
+    margin: 8px;
+    width: 270px;
+    height: 40px;
+
+    background-color: rgb(255, 0, 0);
     color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.check{
+    position: absolute;
+    left: 5px;
+}
+
+.info label{
+    position: relative;
+    left: 23px;
+
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+
+.ajuda{    
+    position: absolute;
+    display: block;
+    
+    top: 260px;
+    left: 150px;
 
     text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-
 }
-                /*Footer*/
-footer{
-    text-align: center;
+
+.footer{
+    position: relative;
+    top: 180px;
+    left: 3px;
+
     color: white;
-    font-size: 90%
 }
 
-@media screen and (min-width: 480px){
+.footer p{
+    position: absolute;
+    top: 50px;
+    left: 4px;
 
-    
+    color: gray;
 }
 
-@media screen and (min-width: 1440px) {
-    .entrar{
-        padding: 0;
-        width: 5%;
-        height: 4.3%;
-        
-    }
+.footer a{
+    position: absolute;
+    text-decoration: none;
 
-    .form input{
-        width:400px;
-        height: 40px;
-    
-        margin: 0px;
-    
-        position: relative;
-    }
-
-    .assine{
-        padding: 11px;
-
-
-    }
-    
+    top: 67px;
+    left: 112px;
 }
-
-
-                                                                                            /*<\\>*/
-
-
-                                                                                            
+                                                                                                      /*<\\>*/
