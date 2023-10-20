@@ -114,32 +114,9 @@ main{
     text-decoration: none;
 }
 .chao{
-    border: 2px solid red;
-    position:absolute;
-    bottom: 3%;
+    position: absolute;     
     left: 17%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-
-
- 
-
-
-
-
-}
-
-
-
-.chao p{
-
-    color: gray;
-}
-
-.chao a{
-    padding-left: 3px;
+    bottom: 10px;
     text-decoration: none;
 }
 
@@ -165,10 +142,7 @@ main{
         align-items: start;
         padding-left: 0px;
 
-    .chao{
-        
-        
-        left: 17%;
+    
            
 }
 
