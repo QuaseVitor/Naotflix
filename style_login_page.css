@@ -7,7 +7,10 @@ html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     background-image: url(./image/fundo_netflix.png); 
-    background-size:cover;
+    background-size: auto;
+    background-repeat: repeat;
+
+
     
 
 }
@@ -19,7 +22,7 @@ color: white;
 } 
                 /*Cabeçalho*/
 .logo{
-    margin: 18px 0px 0px 20px;
+    margin: 2.5% 0% 0% 2.5%;
     width: 150px;
     position: relative;
 
@@ -27,16 +30,24 @@ color: white;
 
                 /*Fundo opaco*/
 
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .fundo{
-    text-align: center;
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 2%;
 
     width: 381px;
     height:580px;
 
-    top: 10%;
-    left: 36.5%;
+    
+   
 
     background-color: rgb(7, 7, 7);
     opacity: 80%;
@@ -51,17 +62,15 @@ color: white;
     position: absolute;
     text-align: left;
 
-    top: 12%;
-    left: 40%;
+    
 }
 
 .form h1{
     color: white;
     font-size: 25px;
-
     position: relative;
-
-    left: 10px;
+    left: 3.5%;
+    
 }
 
 .email{
@@ -87,51 +96,74 @@ color: white;
     font-size: 18px;
     border-radius: 4px;
 }
+.senha{
+    display: flex;
+    justify-content: center;
 
-.check{
-    position: absolute;
-    left: 5px;
+    left: 2%
+    
 }
 
 .info label{
-    position: relative;
-    left: 23px;
-
-    font-size: 15px;
+    font-size: 100%;
     color: rgb(102, 102, 102);
 }
 
-.ajuda{    
-    position: absolute;
-    display: block;
-    
-    top: 260px;
-    left: 150px;
-
+.ajuda{   
+    padding-left: 11%;
     text-decoration: none;
 }
-
 .footer{
-    position: relative;
-    top: 180px;
-    left: 3px;
+    position:absolute;
+    bottom: 3%;
+    left: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 
-    color: white;
+
+ 
+
+
+
+
 }
 
+
+
 .footer p{
-    position: absolute;
-    top: 50px;
-    left: 4px;
 
     color: gray;
 }
 
 .footer a{
-    position: absolute;
+    padding-left: 3px;
     text-decoration: none;
-
-    top: 67px;
-    left: 112px;
 }
+
+@media screen and (max-width: 480px){
+
+    html, body{
+        margin: 0px;
+        padding: 0px;
+       
+        background-color:rgb(28, 27, 44) ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        background-image: url(./image/fundo_netflix.png); 
+        background-size:cover;
+        
+    
+    }
+
+    .fundo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 0px;
+
+}
+
                                                                                                       /*<\\>*/
