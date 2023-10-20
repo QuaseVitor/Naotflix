@@ -113,7 +113,8 @@ main{
     padding-left: 11%;
     text-decoration: none;
 }
-.footer{
+.chao{
+    border: 2px solid red;
     position:absolute;
     bottom: 3%;
     left: 17%;
@@ -132,12 +133,12 @@ main{
 
 
 
-.footer p{
+.chao p{
 
     color: gray;
 }
 
-.footer a{
+.chao a{
     padding-left: 3px;
     text-decoration: none;
 }
@@ -164,11 +165,11 @@ main{
         align-items: start;
         padding-left: 0px;
 
-    .footer{
-        bottom: -20px;
-        padding-bottom: 0px;
+    .chao{
+        
+        
         left: 17%;
-
+           
 }
 
                                                                                                       /*<\\>*/
