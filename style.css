@@ -136,6 +136,20 @@ footer{
 
     .assine{
         padding: 11px;
+    
+        width: 15%;
+        height: 21px;
+       
+    
+        background-color: rgb(231, 0, 0);
+        border: 1px solid rgb(255, 0, 0);
+        font-size: 20px;
+        color: white;
+    
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
 
 
     }
